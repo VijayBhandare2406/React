@@ -1,14 +1,18 @@
-import Header from "./Header"
+
+
+import Chai from "./chai"
+
 
 function App() {
+  const username = "chai aur code"
+
   return (
-    // DOM = Document Object Model → It allows JavaScript to access and manipulate HTML elements.
     <>
-      <h1>Hello Vijay this is vite</h1>
-    <Header />
-    </>
-    
-  );
+    <Chai/>
+    <h1>chai aur react {username}</h1>
+    <p>test para</p>
+   </>
+  )
 }
 
-export default App;
+export default App

@@ -1,10 +1,11 @@
-import Header from "./Header"
+
+import Chai from "./Chai";
+
 function App() {
   return (
     <>
-     <h1>Hello Vijay this is react</h1>
-
-      <Header />
+    <Chai/>
+    
     </>
   );
 }
